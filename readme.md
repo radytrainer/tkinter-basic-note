@@ -36,3 +36,26 @@ window.mainloop()
 #### Examples:
 
 <img src="tk-2.png">
+
+#### Identify window size
+```python
+import tkinter as tk
+
+# create window object
+window = tk.Tk()
+
+# create title on window
+window.title("My Game tile")
+
+# Window size
+window.geometry("300x400")
+
+# your code more here
+
+# Build the window object
+window.mainloop()
+
+```
+#### Examples:
+
+<img src="tk-3.png">
